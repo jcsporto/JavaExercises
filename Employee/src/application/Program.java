@@ -19,7 +19,7 @@ public class Program {
 		System.out.print("Enter the number of employess: ");
 		int n = sc.nextInt();
 		
-		for(int i = 1; i<= i; i++) {
+		for(int i = 1; i<=n; i++) {
 			System.out.println("Employee #" + i + "data: ");
 			System.out.print("Outsourced (y/n)? ");
 			char ch = sc.next().charAt(0);
